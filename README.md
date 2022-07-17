@@ -1,0 +1,5 @@
+# Entrega-DOM
+En esta entrega lo que hice fue crear un programa en el cual el usuario ingresa determinados productos a la base de datos mediante un prompt, y cada producto que va agregando se guarda en un objeto (con sus propiedades: nombre, precio, cantidad, categoria).
+Cada objeto, a su vez, se va guardando en un array (arrayProductos), el cual comienza estando vacío, mediante una iteración con el for...of. De esta manera, use el DOM para que con dicha iteración vayan apareciendo en pantalla los productos que el usuario haya ingresado en la base de datos. 
+También use el método filter de los arrays para filtrar, por un lado, a todos aquellos productos de los cuales haya poca cantidad (más de 0 pero menos de 3) y se muestran en el H3 como "lista de productos con poco stock", y por otro lado, todos aquellos productos de los cuales no hay cantidad (es decir, se cargaron 0 productos), y se muestran en pantalla en el H3 "lista de productos sin stock". 
+A su vez, le di un poco de estilo a los elementos HTML con el DOM, ya que ni siquiera use un archivo.css. 
